@@ -64,3 +64,17 @@ html, body {
   margin-left: -20px; /* Điều chỉnh khoảng cách sang trái */
   text-align: left; /* Căn trái cho dòng chữ */
 }
+
+/* Media Queries cho các màn hình nhỏ */
+@media (max-width: 600px) {
+  .heartbeat {
+    width: 70px; /* Kích thước nhỏ hơn cho điện thoại */
+    height: 50px;
+  }
+
+  .message {
+    font-size: 18px; /* Kích thước font nhỏ hơn cho điện thoại */
+    margin-left: -10px; /* Điều chỉnh khoảng cách sang trái */
+  }
+}
+
